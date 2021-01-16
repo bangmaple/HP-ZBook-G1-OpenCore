@@ -2,6 +2,18 @@
 A repository for OpenCore boot-loader for HP ZBook G1.
 This repository will be updated weekly!
 
+- 🥲 Current OpenCore bootloader version: 0.6.6 (16th Jan 2021)
+
+### New updates:
+<ul>
+    <li>Upgraded to OpenCore 0.6.6-beta branch.</li>
+    <li>Replaced <b>HfsPlus.efi</b> driver with <b>OpenHfsPlus.efi</b> for performance improvement.</li>
+    <li>Added <b>RestrictEvents.kext</b> kext for disable non-functional features on macOS</li>
+    <li>macOS 10.16 (BigSur) performance improvement. Tested on the latest beta version (11.2 beta 2)</li>
+    <li>Kexts are up-to-date.</li>
+</ul>
+
+
 ---------------
 ## 💻 Hardware
 
@@ -13,6 +25,9 @@ This repository will be updated weekly!
 
 
 - GPU: Intel HD 4600 Mobile
+
+
+- Wi-Fi Card: Broadcom BCM94352HMB
 
 
 - Removeable GPU: nVIDIA Quardo K1100M (Not working on macOS so I disabled it for power saving)
@@ -30,12 +45,12 @@ This repository will be updated weekly!
 
 - Fully supported for sleep and hibernate mode 3-25. 💤
 
-- Fully supported for macOS 10.10 to 10.15 out-of-the-box. 📈
+- Fully supported for macOS 10.10 to 10.16 out-of-the-box. 📈
 
 - Fully supported for Intel Virtualization which means you can run Virtual Machines with ease, tested on Parallels Desktop, VMWare Fusion, Docker, Android Studio, Xcode Simulator. 📡
 
 
-### You will need to change some kexts or I will update it soon for macOS 10.16. If you are insisting of install macOS 10.16 soon, you can install it normally but the Wi-Fi functionality will not be working either the bluetooth functionality.
+### Wi-Fi and Bluetooth are fully supported for macOS 10.14 -> 10.16 (with Broadcom BCM943xxx)
 
 
 - Fan control is working perfectly. 🦄
