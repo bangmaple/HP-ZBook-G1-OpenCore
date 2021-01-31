@@ -2,14 +2,16 @@
 A repository for OpenCore boot-loader for HP ZBook G1.
 This repository will be updated weekly!
 
-- 🥲 Current OpenCore bootloader version: 0.6.6 (16th Jan 2021)
+- 🥲 Current OpenCore bootloader version: 0.6.6 (31th Jan 2021)
 
 ### New updates:
 <ul>
+    <li>Booting time is now faster than Mojave version.</li>
+    <li>VoodooRMI is updated to the latest beta version. Improved the compatibility.</li>
     <li>Upgraded to OpenCore 0.6.6-beta branch.</li>
     <li>Replaced <b>HfsPlus.efi</b> driver with <b>OpenHfsPlus.efi</b> for performance improvement.</li>
     <li>Added <b>RestrictEvents.kext</b> kext for disable non-functional features on macOS</li>
-    <li>macOS 10.16 (BigSur) performance improvement. Tested on the latest beta version (11.2 beta 2)</li>
+    <li>macOS 10.16 (BigSur) performance improvement. Tested on the latest beta version (11.2 RC 3)</li>
     <li>Kexts are up-to-date.</li>
 </ul>
 
@@ -56,10 +58,6 @@ This repository will be updated weekly!
 - Fan control is working perfectly. 🦄
 
 - Support for multi-gesture touchpad such as 2,3,4-fingers. 👋
-
-
-### There is a small change that it will fail to load the touchpad kext so you will need to restart for sometimes to get it working. For me there is a 40% it will not be loading by booting up.
-
 
 - USB Ports are fully patched and ready to be used. ⌨️
 
