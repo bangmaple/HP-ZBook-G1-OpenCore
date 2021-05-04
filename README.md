@@ -2,13 +2,13 @@
 A repository for OpenCore boot-loader for HP ZBook G1.
 This repository will be updated weekly!
 
-- 🥲 Current OpenCore bootloader version: 0.6.8 (07 Apr 2021)
+- 🥲 Current OpenCore bootloader version: 0.6.9 ( May 4th 2021)
 
 ### New updates:
 <ul>
     <li>Booting time is now faster than Mojave version.</li>
     <li>Added <b>EFI tools</b> for OpenCore bootloader</li>
-    <li>macOS 10.16 (BigSur) performance improvement. Tested on the latest beta version (11.3 beta 6)</li>
+    <li>macOS 10.16 (BigSur) performance improvement. Tested on the latest stable version (11.3)</li>
     <li>Kexts are up-to-date.</li>
 </ul>
 
