@@ -50,7 +50,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-HPET_RTC_TIMR-fix.aml</string>
 			</dict>
@@ -1130,7 +1130,7 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
-			<false/>
+			<true/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
@@ -1140,23 +1140,23 @@
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
-			<false/>
+			<true/>
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProtectUefiServices</key>
-			<false/>
+			<true/>
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>ProvideMaxSlide</key>
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
-			<false/>
+			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1352,6 +1352,96 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>FakeSMC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/FakeSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ACPIMonitor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ACPIMonitor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelCPUMonitor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelCPUMonitor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>ITEIT87x.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ITEIT87x</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooBatterySMC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooBatterySMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>IntelMausi.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1500,7 +1590,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SystemProfilerMemoryFixup</string>
 				<key>MaxKernel</key>
@@ -1608,7 +1698,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
@@ -1838,13 +1928,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>BrightnessKeys.kext</string>
+				<string>Sinetek-rtsx.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrightnessKeys</string>
+				<string>Contents/MacOS/Sinetek-rtsx</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1878,7 +1968,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Disabler</string>
 				<key>MaxKernel</key>
@@ -1896,7 +1986,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
@@ -1910,13 +2000,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>Sinetek-rtsx.kext</string>
+				<string>VoodooHDA.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Sinetek-rtsx</string>
+				<string>Contents/MacOS/VoodooHDA</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -2221,7 +2311,7 @@
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>NVRAM</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>LauncherOption</key>
@@ -2324,7 +2414,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
@@ -2342,7 +2432,7 @@
 				<key>Comment</key>
 				<string>Memory testing utility</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Key Tester</string>
 				<key>Path</key>
@@ -2360,7 +2450,7 @@
 				<key>Comment</key>
 				<string>Perform shutdown</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Reset System</string>
 				<key>Path</key>
@@ -2378,7 +2468,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Boot Kicker</string>
 				<key>Path</key>
@@ -2396,7 +2486,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Chip Tune</string>
 				<key>Path</key>
@@ -2414,7 +2504,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Clean NVRAM</string>
 				<key>Path</key>
@@ -2432,7 +2522,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Control MsrE2</string>
 				<key>Path</key>
@@ -2450,7 +2540,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>Gop Stop</string>
 				<key>Path</key>
@@ -2468,7 +2558,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>HDACodecDump</string>
 				<key>Path</key>
@@ -2486,7 +2576,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>MmapDump</string>
 				<key>Path</key>
@@ -2504,7 +2594,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>OpenControl</string>
 				<key>Path</key>
@@ -2522,7 +2612,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>RtcRw</string>
 				<key>Path</key>
@@ -2540,7 +2630,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>VerifyMsrE2</string>
 				<key>Path</key>
@@ -2577,17 +2667,34 @@
 				<key>SystemAudioVolume</key>
 				<data>EA==</data>
 				<key>boot-args</key>
-				<string>brcmfx-country=#a npci=0x2000 debug=0x1000 -v keepsyms=1 swd_panic=1</string>
+				<string>brcmfx-country=#a npci=0x2000 debug=0x1000 -v keepsyms=1</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
 				<data></data>
 				<key>run-efi-updater</key>
 				<string>No</string>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
-		<dict/>
+		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<array>
+				<string>UIScale</string>
+				<string>DefaultBackgroundColor</string>
+			</array>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<array>
+				<string>rtc-blacklist</string>
+			</array>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<array>
+				<string>boot-args</string>
+				<string>ForceDisplayRotationInEFI</string>
+			</array>
+		</dict>
 		<key>LegacyEnable</key>
 		<false/>
 		<key>LegacyOverwrite</key>
@@ -2636,9 +2743,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C17629404QXHMHK1F</string>
+			<string>CXXXXXXXXXXXXX</string>
 			<key>ProcessorType</key>
-			<integer>1537</integer>
+			<integer>1793</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -2646,20 +2753,20 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacBookPro13,1</string>
+			<string>MacBookPro13,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C17S30DQGVC1</string>
+			<string>XXXXXXXXXX</string>
 			<key>SystemUUID</key>
-			<string>73950849-2317-4365-B569-1123A4BF5D3D</string>
+			<string>XXXXXXXX</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>01/05/2021</string>
+			<string>02/26/2021</string>
 			<key>BIOSVendor</key>
 			<string>Apple Inc.</string>
 			<key>BIOSVersion</key>
-			<string>429.80.1.0.0</string>
+			<string>429.100.7.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -2667,23 +2774,23 @@
 			<key>BoardManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>BoardProduct</key>
-			<string>Mac-473D31EABEB93F9B</string>
+			<string>Mac-A5C67F76ED83108C</string>
 			<key>BoardSerialNumber</key>
-			<string>C02410700GUFH31FB</string>
+			<string>C02641405QXHCF9A8</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
-			<string>MacBookPro13,1</string>
+			<string>MacBookPro13,3</string>
 			<key>ChassisAssetTag</key>
-			<string>MacBook-Aluminum</string>
+			<string>Asset Tag#</string>
 			<key>ChassisManufacturer</key>
 			<string>Apple Inc.</string>
 			<key>ChassisSerialNumber</key>
-			<string>C02MDDYWFH00</string>
+			<string>CXXXXXXXXXX</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-473D31EABEB93F9B</string>
+			<string>Mac-A5C67F76ED83108C</string>
 			<key>FirmwareFeatures</key>
 			<data>N+EP/AAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
@@ -2691,19 +2798,19 @@
 			<key>PlatformFeature</key>
 			<integer>26</integer>
 			<key>ProcessorType</key>
-			<integer>1537</integer>
+			<integer>1793</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
 			<string>MacBook Pro</string>
 			<key>SystemManufacturer</key>
-			<string>Apple Inc.</string>
+			<string></string>
 			<key>SystemProductName</key>
-			<string>MacBookPro13,1</string>
+			<string>MacBookPro13,3</string>
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02MDDYWFH00</string>
+			<string>C0XXXXXXXXXX</string>
 			<key>SystemUUID</key>
 			<string>3CDA1874-E71D-4DF3-9F03-C9E37978F6B1</string>
 			<key>SystemVersion</key>
@@ -2742,7 +2849,7 @@
 			<key>AppleEvent</key>
 			<string>Auto</string>
 			<key>CustomDelays</key>
-			<string>Auto</string>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
@@ -2873,11 +2980,17 @@
 			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
+			<key>EnableVectorAcceleration</key>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForgeUefiSupport</key>
+			<true/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
 			<key>ReleaseUsbOwnership</key>
+			<false/>
+			<key>ReloadOptionRoms</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
