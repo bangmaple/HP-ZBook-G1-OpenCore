@@ -2,19 +2,17 @@
 A repository for OpenCore boot-loader for HP ZBook 15 G1.
 This repository will be updated weekly!
 
-- 🥲 Current OpenCore bootloader version: 0.7.0 ( Jun 8th 2021)
+- 🥲 Current OpenCore bootloader version: 0.7.8 (Feb 14th 2022)
 
 ### New updates:
 <ul>
-    <li>Added support for macOS 12 Monterey Beta (Currently tested working on Beta 1).</li>
-    <li>Replaced AppleALC.kext with VoodooHDA.kext for external microphone working and so on.</li>
-    <li>Tweaked some OC configuration to make macOS working smoothly.</li>
-    <li>Kexts are up-to-date by hand-compiled kexts on Acidanthera repositories.</li>
+    <li>Added support for macOS 12 Monterey and macOS 11 Big Sur.</li>
 </ul>
 
 
-### Reminder for those who are going to install macOS 12 Beta!!
+### Reminder for those who are going to install macOS 12!!
 
+- Considering the BluetoolFixUp.kext for macOS 12 support.
 
 - Please consider disabling these following kexts due to (currently not) support. Waiting for developer to fix it.
 
